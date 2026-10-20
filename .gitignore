@@ -1,0 +1,31 @@
+﻿# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+# Base de datos y migraciones locales
+*.dump
+*.backup
+
+# Node.js y frontend
+node_modules/
+dist/
+coverage/
+.npm/
+
+# Herramientas y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
