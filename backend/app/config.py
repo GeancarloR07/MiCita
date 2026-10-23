@@ -3,7 +3,7 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-# Obtener la carpeta raíz del proyecto TurnoPro.
+# Obtener la carpeta raíz del proyecto MiCita.
 # Este archivo está dentro de backend/app/.
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 

@@ -8,7 +8,7 @@ from app.database import Base
 
 
 class User(Base):
-    """Representa una cuenta de usuario global en TurnoPro."""
+    """Representa una cuenta de usuario global en MiCita."""
 
     __tablename__ = "users"
 

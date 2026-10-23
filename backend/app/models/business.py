@@ -8,7 +8,7 @@ from app.database import Base
 
 
 class Business(Base):
-    """Representa un negocio registrado en TurnoPro."""
+    """Representa un negocio registrado en MiCita."""
 
     __tablename__ = "businesses"
 

@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from app.config import settings
 
 app = FastAPI(
-    title="TurnoPro API",
+    title="MiCita API",
     description="API para la gestión de citas de múltiples negocios.",
     version="0.1.0",
 )
@@ -14,7 +14,7 @@ app = FastAPI(
 def read_root():
     """Devuelve información básica de la API."""
     return {
-        "message": "Bienvenido a TurnoPro",
+        "message": "Bienvenido a MiCita",
         "status": "running",
         "environment": settings.app_env,
     }
